@@ -18,7 +18,7 @@ const SearchBar = () => {
 
   
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex max-sm:p-2 items-center justify-center">
       <input
         type="text"
         placeholder="Search City"

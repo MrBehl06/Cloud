@@ -7,7 +7,7 @@ import { Context } from '../context/contextApi';
 const Main = () => {
  const {loading} = useContext(Context);
   return (
-    <div className='w-full flex items-center justify-center h-[789px] bg-[#dedede]'>
+    <div className='w-full flex h-screen items-center justify-center  bg-[#dedede]'>
       <div>
       <img src="main.png absolute w-[500px]" alt="" />
     </div>
@@ -19,7 +19,7 @@ const Main = () => {
      
      <div className='shadow-lg'>
       <Link to="/dashboard" >
-      <button type='submit' className='w-[400px] h-[50px] rounded-xl border-solid border-2 border-[#E69C1F] shadow-[9px_9px_18px_#bdbdbd,-9px_-9px_18px_#ffffff]  font-semibold text-xl hover:bg-[#d38d15]/[0.7] hover:scale-110 transition ease-in-out delay-250 ' >Get Started</button>
+      <button type='submit' className='w-[400px] h-[50px] rounded-xl max-sm:w-[200px] border-solid border-2 border-[#E69C1F] shadow-[9px_9px_18px_#bdbdbd,-9px_-9px_18px_#ffffff]  font-semibold text-xl hover:bg-[#d38d15]/[0.7] hover:scale-110 transition ease-in-out delay-250 ' >Get Started</button>
       </Link>
       </div>
     </div>

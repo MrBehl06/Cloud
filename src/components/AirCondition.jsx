@@ -3,7 +3,7 @@ import { Context } from '../context/contextApi'
 const AirCondition = () => {
   const {data} = useContext(Context);
   return (
-    <div className='bg-[#dedede] w-[600px] px-2 py-2 h-[250px] rounded-md  shadow-[9px_9px_18px_#bdbdbd,-9px_-9px_18px_#ffffff]'>
+    <div className='bg-[#dedede] w-[600px] max-sm:w-[300px]  px-2 py-2 h-[250px] rounded-md  shadow-[9px_9px_18px_#bdbdbd,-9px_-9px_18px_#ffffff]'>
       <div className='mb-3 mt-2  text-center '>
         <h2 className=' px-1 py-1 text-xl text-black '>Air Conditions</h2>
       </div>
