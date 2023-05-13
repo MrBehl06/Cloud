@@ -14,7 +14,7 @@ const App = () => {
    <AppContext>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Main/>} />
+      <Route path='/Cloud/' element={<Main/>} />
       <Route path='/dashboard' element={<Dashboard/>}/>
     </Routes>
     </BrowserRouter>
